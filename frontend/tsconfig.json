@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react",
+    "outDir": "frontend/out",
+    "moduleResolution": "node",
+    "strict": true,
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2017.object"
+    ]
+  },
+  "exclude": [
+    "../node_modules",
+    "gulpfile.js",
+    "webpack.dev.config.js",
+    "webpack.prd.config.js",
+    "dist"
+  ]
+}
